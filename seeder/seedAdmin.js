@@ -2,8 +2,8 @@ const bcrypt = require('bcryptjs');
 const User = require('../models/user');
 
 const seedAdmin = async () => {
-  const adminEmail = 'admin@example.com';
-  const adminPassword = 'admin123';
+  const adminEmail = 'pkbikepri@pkbi.or.id';
+  const adminPassword = 'T4n4hm3l4yu';
 
   try {
     const user = await User.findOne({ where: { email: adminEmail } });

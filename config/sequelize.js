@@ -7,4 +7,7 @@ const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, proces
   logging: false,
 });
 
+console.log("DB USER:", process.env.DB_USER);
+
+
 module.exports = sequelize;
